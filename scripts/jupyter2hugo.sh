@@ -29,6 +29,7 @@ check_command "hugo"
 check_directory "$POSTS_DIR"
 
 # Check for the hugo/content/posts directory
+mkdir -p "$HUGO_CONTENT_DIR"
 check_directory "$HUGO_CONTENT_DIR"
 
 # Check for the hugo/static directory
