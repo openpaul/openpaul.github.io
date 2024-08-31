@@ -1,1 +1,7 @@
-./public/
+public/
+./hugo/content/posts
+.hugo_build.lock
+ideas.txt
+versions.txt
+data/
+_posts/*_files
