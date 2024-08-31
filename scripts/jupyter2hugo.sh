@@ -33,6 +33,7 @@ mkdir -p "$HUGO_CONTENT_DIR"
 check_directory "$HUGO_CONTENT_DIR"
 
 # Check for the hugo/static directory
+mkdir -p "$HUGO_STATIC_DIR"
 check_directory "$HUGO_STATIC_DIR"
 
 # If all checks pass, proceed with deployment
