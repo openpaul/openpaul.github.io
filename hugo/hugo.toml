@@ -1,0 +1,7 @@
+baseURL = 'https://openpaul.github.io'
+languageCode = 'en-us'
+title = 'Genome Graphs Galore'
+theme = "paper"
+
+[params]
+github = 'openpaul/openpaul.github.io'
