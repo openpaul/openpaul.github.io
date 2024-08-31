@@ -1,13 +1,10 @@
 +++
-title = 'About'
+title = 'About This Blog'
 date = 2024-01-14T07:07:07+01:00
 draft = false
 menu = "main"
 +++
 
-Hello! I'm a computational biologist with a passion for biology and nature. My interests lie at the intersection of genomics and data science, and I'm excited to share some of my smaller projects here.
-
-## About This Repository
 
 This space serves as a collection of analyses I've reproduced from research papers. 
 By using the same or similar tools as the original authors, I aim to deepen my understanding of their conclusions and the challenges they faced with the data. 

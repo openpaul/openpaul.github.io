@@ -1,0 +1,2 @@
+# /your-site/themes/my-custom-theme/hugo.toml
+params = { color = "linen" }

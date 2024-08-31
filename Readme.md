@@ -1,11 +1,9 @@
-# Welcome to My GitHub Pages!
-
-Hello! I'm a computational biologist with a passion for biology and nature. My interests lie at the intersection of genomics and data science, and I'm excited to share some of my smaller projects here.
-
-## About This Repository
+# About This Repository
 
 This space serves as a collection of analyses I've reproduced from research papers. 
 By using the same or similar tools as the original authors, I aim to deepen my understanding of their conclusions and the challenges they faced with the data. 
+
+You can follow along by finding the notebook in the `posts` folder.
 
 ## A Note on Datasets
 
