@@ -31,6 +31,7 @@ check_directory "$POSTS_DIR"
 # Check for the hugo/content/posts directory
 mkdir -p "$HUGO_CONTENT_DIR"
 check_directory "$HUGO_CONTENT_DIR"
+rm ${HUGO_CONTENT_DIR}/*md
 
 # Check for the hugo/static directory
 mkdir -p "$HUGO_STATIC_DIR"
