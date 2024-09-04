@@ -6,4 +6,4 @@ theme = ["paper_white", "paper"]
 [params]
 github = 'openpaul/openpaul.github.io'
 name = 'Hello'
-bio = 'Hello! I’m a computational biologist with a passion for biology and nature. My interests lie at the intersection of genomics and data science, and I’m excited to share some of my smaller projects here.'
+bio = 'Hello! I’m a computational biologist with a passion for biology and nature. My interests lie at the intersection of genomics and data science, and I’m excited to share some of my projects here.'

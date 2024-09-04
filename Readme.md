@@ -1,13 +1,9 @@
 # About This Repository
 
-This space serves as a collection of analyses I've reproduced from research papers. 
-By using the same or similar tools as the original authors, I aim to deepen my understanding of their conclusions and the challenges they faced with the data. 
+This repository is the source for the blog: [openpaul.github.io](https://openpaul.github.io/)
 
+This space serves as a collection of explorations and  of analyses I've reproduced from research papers or the wider field of computational biology. 
 You can follow along by finding the notebook in the `posts` folder.
-
-## A Note on Datasets
-
-I recognize that I won't always have the time to explore each dataset thoroughly, especially regarding quality and completeness. Therefore, I will assume that the datasets contain what the authors describe and can be used as is. In a real-world scenario, I would delve deeper, examine more parameters, and compare multiple tools.
 
 ## Get Involved!
 
