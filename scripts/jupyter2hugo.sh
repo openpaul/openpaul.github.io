@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Define the directories to check
-POSTS_DIR="_posts"
+POSTS_DIR="posts"
 HUGO_CONTENT_DIR="hugo/content/posts"
 HUGO_STATIC_DIR="hugo/static"
 
@@ -25,12 +25,13 @@ check_command() {
 check_command "jupyter-nbconvert"
 check_command "hugo"
 
-# Check for the _posts directory
+# Check for the posts directory
 check_directory "$POSTS_DIR"
 
 # Check for the hugo/content/posts directory
 mkdir -p "$HUGO_CONTENT_DIR"
 check_directory "$HUGO_CONTENT_DIR"
+rm ${HUGO_CONTENT_DIR}/*md
 
 # Check for the hugo/static directory
 mkdir -p "$HUGO_STATIC_DIR"
