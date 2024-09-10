@@ -42,6 +42,8 @@ echo "All required directories and dependencies exist. Proceeding with deploymen
 
 # Function to convert Jupyter notebooks to Markdown
 convert_notebooks() {
+    # delete old files 
+    rm -r $POSTS_DIR/*_files
     for notebook in "$POSTS_DIR"/*.ipynb; do
         if [ -f "$notebook" ]; then
             echo "Converting $notebook to Markdown..."
