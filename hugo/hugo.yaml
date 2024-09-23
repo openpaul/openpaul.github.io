@@ -1,0 +1,40 @@
+baseURL: 'https://openpaul.github.io'
+languageCode: 'en-us'
+title: 'Genome Graphs Galore'
+theme:
+  - "PaperMod"
+paginate: 1000
+
+author: "Paul"
+
+params:
+  github: 'openpaul/openpaul.github.io'
+
+  homeInfoParams:
+    Title: "Hi"
+    Content: 'I’m a computational biologist with a passion for biology and nature. 
+      My interests lie at the intersection of genomics and data science, and I’m excited to share some of my projects here. 
+      I write about things I learn and find interesting. This blog is my way of getting some hands on time with a wider range of topics.'
+  
+
+  socialIcons:
+    - name: "rss"
+      url: "./index.xml"
+    - name: 
+
+  ShowShareButtons: false
+  ShowReadingTime: true
+  showToc: true
+  TocOpen: false
+  editPost:
+    URL: "https://github.com/openpaul/openpaul.github.io/tree/main/posts"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: false # to append file path to Edit link
+
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
